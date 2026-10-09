@@ -1,0 +1,175 @@
+.products-page {
+background: #f7f3ed;
+min-height: 100vh;
+}
+
+.products-banner {
+min-height: 300px;
+padding: 65px 20px;
+background: #171717;
+color: #ffffff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.products-banner > p,
+.products-eyebrow {
+color: #c6a15b;
+font-size: 11px;
+letter-spacing: 4px;
+margin-bottom: 18px;
+}
+
+.products-banner h1 {
+font-family: Georgia, "Times New Roman", serif;
+font-size: clamp(35px, 5vw, 58px);
+font-weight: 400;
+margin-bottom: 18px;
+}
+
+.products-banner span {
+color: #c5c5c5;
+font-size: 14px;
+line-height: 1.8;
+}
+
+.products-content {
+max-width: 1500px;
+margin: 0 auto;
+padding: 75px 5%;
+}
+
+.products-heading {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+gap: 25px;
+margin-bottom: 35px;
+}
+
+.products-heading h2 {
+font-family: Georgia, "Times New Roman", serif;
+font-size: clamp(32px, 4vw, 45px);
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.products-count {
+color: #777777;
+font-size: 13px;
+}
+
+.products-sort {
+display: flex;
+align-items: center;
+gap: 10px;
+color: #555555;
+font-size: 13px;
+}
+
+.products-sort select {
+border: 1px solid #d8d0c4;
+padding: 11px;
+background: #fffdf9;
+color: #222222;
+outline: none;
+}
+
+.products-toolbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 25px;
+flex-wrap: wrap;
+border-top: 1px solid #ded7cd;
+border-bottom: 1px solid #ded7cd;
+padding: 20px 0;
+margin-bottom: 35px;
+}
+
+.products-categories {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.products-categories button {
+background: transparent;
+border: 1px solid transparent;
+padding: 10px 13px;
+color: #666666;
+font-size: 12px;
+transition: 0.3s ease;
+}
+
+.products-categories button:hover,
+.products-categories button.selected {
+color: #111111;
+border-color: #c6a15b;
+}
+
+.products-search {
+display: flex;
+align-items: center;
+gap: 10px;
+border-bottom: 1px solid #b9b1a6;
+padding: 9px 0;
+min-width: 200px;
+color: #777777;
+}
+
+.products-search input {
+border: none;
+outline: none;
+background: transparent;
+width: 100%;
+color: #171717;
+font-size: 13px;
+}
+
+.products-empty {
+text-align: center;
+padding: 80px 20px;
+}
+
+.products-empty h3 {
+font-family: Georgia, "Times New Roman", serif;
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 12px;
+}
+
+.products-empty p {
+color: #777777;
+margin-bottom: 20px;
+}
+
+.products-empty button {
+padding: 12px 22px;
+border: 1px solid #c6a15b;
+background: #111111;
+color: #ffffff;
+}
+
+@media (max-width: 700px) {
+.products-content {
+padding: 50px 5%;
+}
+
+.products-heading {
+align-items: flex-start;
+flex-direction: column;
+}
+
+.products-toolbar {
+align-items: stretch;
+flex-direction: column;
+}
+
+.products-search {
+width: 100%;
+}
+}
