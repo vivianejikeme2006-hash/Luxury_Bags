@@ -1,3 +1,61 @@
+:root {
+  --black: #111111;
+  --soft-black: #1a1a1a;
+  --cream: #f7f3ed;
+  --ivory: #fffdf9;
+  --gold: #c6a15b;
+  --light-gold: #dfc98f;
+  --gray: #777777;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--ivory);
+  color: var(--black);
+}
+
+#root {
+  max-width: none;
+  padding: 0;
+  text-align: left;
+}
+
+main {
+  width: 100%;
+  min-height: 70vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
 .test-page {
   min-height: calc(100vh - 78px);
 
