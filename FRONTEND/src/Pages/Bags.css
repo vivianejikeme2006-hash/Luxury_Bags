@@ -1,0 +1,235 @@
+.bags-page {
+  background: #fffdf9;
+  color: #171717;
+}
+
+.bags-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 340px;
+  padding: 55px 22px;
+  background:
+    linear-gradient(rgba(15, 13, 11, 0.5), rgba(15, 13, 11, 0.65)),
+    url("https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1800&q=85")
+      center 48% / cover;
+  color: #fff;
+  text-align: center;
+}
+
+.bags-hero > p {
+  margin-bottom: 20px;
+  color: #dfc98f;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.bags-hero h1 {
+  margin-bottom: 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(36px, 5vw, 58px);
+  font-weight: 400;
+}
+
+.bags-hero > span {
+  color: #eee7dc;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.bags-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 6%;
+}
+
+.bags-heading-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.bags-eyebrow {
+  margin-bottom: 12px;
+  color: #a58a55;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+.bags-heading-row h2 {
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.bags-count {
+  color: #77716a;
+  font-size: 13px;
+}
+
+.bags-all-products-link {
+  padding-bottom: 6px;
+  color: #8c6a34;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.bags-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 28px;
+  padding: 20px 0;
+  border-top: 1px solid #e8dfd2;
+  border-bottom: 1px solid #e8dfd2;
+}
+
+.bags-search,
+.bags-sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #77716a;
+}
+
+.bags-search {
+  flex: 1;
+  max-width: 420px;
+}
+
+.bags-search input {
+  width: 100%;
+  min-width: 0;
+  padding: 11px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #171717;
+  font-size: 13px;
+}
+
+.bags-search input::placeholder {
+  color: #77716a;
+}
+
+.bags-sort {
+  padding-left: 15px;
+  border-left: 1px solid #e8dfd2;
+}
+
+.bags-sort select {
+  max-width: 190px;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  background: #fffdf9;
+  color: #37322b;
+  font-size: 12px;
+}
+
+.bags-filter-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 17px;
+  color: #5d5549;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.bags-category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.bags-category-list button {
+  min-height: 39px;
+  padding: 10px 17px;
+  border: 1px solid #ded5c8;
+  background: transparent;
+  color: #514c45;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.bags-category-list button:hover,
+.bags-category-list button.active {
+  border-color: #171717;
+  background: #171717;
+  color: #fff;
+}
+
+.bags-no-results {
+  padding: 65px 20px;
+  border: 1px solid #e8dfd2;
+  text-align: center;
+}
+
+.bags-no-results h3 {
+  margin-bottom: 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.bags-no-results p {
+  margin-bottom: 22px;
+  color: #69645d;
+  font-size: 13px;
+}
+
+.bags-no-results button {
+  padding: 13px 18px;
+  border: 1px solid #171717;
+  background: #171717;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 650px) {
+  .bags-content {
+    padding: 40px 18px;
+  }
+
+  .bags-heading-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .bags-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .bags-sort {
+    padding: 12px 0 0;
+    border-top: 1px solid #e8dfd2;
+    border-left: none;
+  }
+
+  .bags-sort select {
+    flex: 1;
+    max-width: none;
+  }
+
+  .bags-category-list {
+    gap: 8px;
+  }
+
+  .bags-category-list button {
+    padding: 9px 12px;
+    font-size: 11px;
+  }
+}

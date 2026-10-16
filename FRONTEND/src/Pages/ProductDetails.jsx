@@ -77,6 +77,86 @@ category: "Mini Bags",
 image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1000&q=85",
 description: "A petite bag with a refined shape for carrying your essentials in style.",
 details: ["Mini silhouette", "Lightweight design", "Day-to-evening styling"]
+},
+{
+id: 9,
+name: "The Milano Tote",
+category: "Tote Bags",
+price: 2799,
+image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+description: "A spacious everyday tote with a refined, timeless silhouette."
+},
+{
+id: 10,
+name: "Velvet Evening Clutch",
+category: "Clutch Bags",
+price: 1599,
+image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+description: "An elegant evening clutch for dinners and special occasions."
+},
+{
+id: 11,
+name: "The Heritage Satchel",
+category: "Satchel Bags",
+price: 2399,
+image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80",
+description: "A structured satchel with classic luxury-inspired detailing."
+},
+{
+id: 12,
+name: "Amara Bucket Bag",
+category: "Bucket Bags",
+price: 1899,
+image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+description: "A modern bucket bag with a relaxed shape and polished finish."
+},
+{
+id: 13,
+name: "The Weekender",
+category: "Travel Bags",
+price: 3299,
+image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+description: "A roomy travel companion for stylish weekend getaways."
+},
+{
+id: 14,
+name: "Luna Quilted Bag",
+category: "Quilted Bags",
+price: 2599,
+image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+description: "A quilted statement bag with a sophisticated chain strap."
+},
+{
+id: 15,
+name: "The Crescent Hobo",
+category: "Hobo Bags",
+price: 2199,
+image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80",
+description: "A soft crescent-shaped shoulder bag for effortless everyday style."
+},
+{
+id: 16,
+name: "Éclipse Phone Bag",
+category: "Mini Bags",
+price: 999,
+image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+description: "A compact crossbody designed for your phone and daily essentials."
+},
+{
+id: 17,
+name: "The Executive Briefcase",
+category: "Briefcases",
+price: 3599,
+image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+description: "A sleek structured bag for work, meetings, and business travel."
+},
+{
+id: 18,
+name: "Rosé Top-Handle Bag",
+category: "Top-Handle Bags",
+price: 2299,
+image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80",
+description: "A feminine top-handle design with a polished, elegant finish."
 }
 ];
 
