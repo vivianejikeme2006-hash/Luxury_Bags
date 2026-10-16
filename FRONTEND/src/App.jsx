@@ -11,6 +11,11 @@ import Checkout from "./Pages/Checkout";
 import OrderConfirmation from "./Pages/OrderConfirmation";
 import Auth from "./Pages/Auth";
 import Profile from "./Pages/Profile";
+import Orders from "./Pages/Orders";
+import About from "./Pages/About";
+import Bags from "./Pages/Bags";
+import Contact from "./Pages/Contact";
+import FAQ from "./Pages/FAQ";
 import "./App.css";
 
 function App() {
@@ -31,6 +36,11 @@ function App() {
           <Route path="/login" element={<Auth />} />
           <Route path="/signup" element={<Auth />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/bags" element={<Bags />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
         
 
         </Routes>
